@@ -177,3 +177,11 @@ main section{
 .skil-des {
     color:  #757575;
 }
+
+/* resume style  */
+
+.resume-col-title{
+    color:#474747; 
+    font-size: 30px; 
+    font-weight: 700;
+}  
