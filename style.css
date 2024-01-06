@@ -1,3 +1,6 @@
+
+/* nav related style */
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -6,6 +9,7 @@ nav {
     display:flex ;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .text-primary {
@@ -48,4 +52,20 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related style */
+ 
+.header{
+    background-color: #FFF8F3;
+}
+
+.benar{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.baner .profile-pic{
+    width: 500px;
 }
