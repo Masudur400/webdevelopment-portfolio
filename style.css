@@ -117,6 +117,10 @@ main {
     margin: 0px auto;
 }
 
+main section{
+    margin-top:130px;
+}
+
 /* about sectino style  */
 
 .about {
@@ -142,15 +146,34 @@ main {
     /* font-weight: 400; */
 }
 
- .about-info-con{
+.about-info-con {
     display: flex;
     justify-content: space-around;
- }
+}
 
- .about-info{
-    text-align:center;
- }
+.about-info {
+    text-align: center;
+}
 
- #what-i-do-des{
-    padding:30px 150px;
- }
+#what-i-do-des {
+    padding: 30px 150px;
+}
+
+/* skills related style  */
+
+.skils-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skil {
+    padding: 30px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skil-des {
+    color:  #757575;
+}
